@@ -1,19 +1,21 @@
 #include <stdio.h>
+
 /**
- * main-program entry point.
- * Return:0 no error, non zero if error.
+ *main-program entry point.
+ *Return:0 no error, non zero if error.
  **/
 int main(void)
 {
-        char alphabet;
-	char ch;
+	char i;
+	char j;
 
-        for (alphabet = 'a'; alphabet <= 'z'; alphabet ++) {
-	putchar(alphabet);
-        }
-	for (ch = 'A' ; ch <= 'Z' ; ch++) 
+	for (i = 'a'; i <= 'z'; i++)
 	{
-	putchar(ch);
+		putchar(i);
+	}
+	for (j = 'A'; j <= 'Z'; j++)
+	{
+		putchar(j);
 	}
 	putchar('\n');
 	return (0);
